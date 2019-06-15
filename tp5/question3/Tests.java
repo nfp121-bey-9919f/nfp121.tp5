@@ -1,10 +1,15 @@
 package question3;
 
 import java.util.Set;
+import java.util.HashSet;
+import java.util.TreeSet;
 
+/**
+ * Impl�mente les tests pour {@see question3.TreeSetFactory} et {@see question3.HashSetFactory}.
+ */
 public class Tests extends junit.framework.TestCase {
 
-    public void test1(question3.Factory/* à compléter */f) throws Exception {
+    public void test1(question3.Factory<Set<Integer>> f) throws Exception {
         Set<Integer> set = f.create();
         for (int i = 20; i > 0; i--)
             set.add(i);
@@ -20,5 +25,16 @@ public class Tests extends junit.framework.TestCase {
             fail(" exception inattendue : " + e.getMessage());
         }
     }
-
+    
+    public void testHashSetFactoryType() {
+        Factory<Set<Integer>> factory = new HashSetFactory<Integer>();
+        Set<Integer> set = factory.create();
+        assertTrue(set instanceof HashSet); 
+    }
+    
+    public void testTreeSetFactoryType() {
+        Factory<Set<Integer>> factory = new TreeSetFactory<Integer>();
+        Set<Integer> set = factory.create();
+        assertTrue(set instanceof TreeSet);
+    }
 }

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=TreeSetFactory
+comment0.text=\r\n\ Fournit\ une\ factory\ de\ cr\u00E9ation\ pour\ les\ ensembles\ ordonn\u00E9s\ de\ type\ {@see\ java.util.TreeSet}.\r\n\ \r\n\ @param\ <T>\ Type\ d'\u00E9l\u00E9ment\ contenu\ dans\ l'ensemble\ ordonn\u00E9.\r\n
+comment1.params=
+comment1.target=java.util.Set\ create()
+comment1.text=\r\n\ Cr\u00E9e\ une\ nouvelle\ instance\ de\ {@see\ java.util.TreeSet}.\r\n\ \r\n\ @return\ La\ nouvelle\ instance\ de\ {@see\ java.util.TreeSet}.\r\n
+numComments=2

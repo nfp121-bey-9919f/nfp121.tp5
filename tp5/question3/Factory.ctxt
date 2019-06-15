@@ -1,4 +1,7 @@
 #BlueJ class context
-comment0.params=
-comment0.target=java.lang.Object\ create()
-numComments=1
+comment0.target=Factory
+comment0.text=\r\n\ Fournit\ une\ abstraction\ pour\ la\ cr\u00E9ation\ d'objet\ de\ type\ T.\r\n\ \r\n\ @param\ <T>\ Type\ d'objet.\r\n
+comment1.params=
+comment1.target=java.lang.Object\ create()
+comment1.text=\r\n\ Cr\u00E9e\ une\ nouvelle\ instance\ de\ T.\r\n\ \r\n\ @return\ L'instance\ de\ T.\r\n
+numComments=2

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=HashSetFactory
+comment0.text=\r\n\ Fournit\ une\ factory\ de\ cr\u00E9ation\ pour\ les\ ensembles\ non\ ordonn\u00E9s\ de\ type\ {@see\ java.util.HashSet}.\r\n\ \r\n\ @param\ <T>\ Type\ d'\u00E9l\u00E9ment\ contenu\ dans\ l'ensemble\ non\ ordonn\u00E9.\r\n
+comment1.params=
+comment1.target=java.util.Set\ create()
+comment1.text=\r\n\ Cr\u00E9e\ une\ nouvelle\ instance\ de\ {@see\ java.util.HashSet}.\r\n\ \r\n\ @return\ La\ nouvelle\ instance\ de\ {@see\ java.util.HashSet}.\r\n
+numComments=2
